@@ -41,7 +41,7 @@ export default function App() {
   return (
     <div>
       <p>
-        {format(addDays(new Date(), 1), 'EEEE dd-MMM-yyyy')} there will be{' '}
+        {format(addDays(new Date(), 1), 'EEEE dd-MMM')} there will be{' '}
         <strong>{results.length}</strong> near (or very near) misses ... take care !
       </p>
       <hr></hr>
